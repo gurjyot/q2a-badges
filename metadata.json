@@ -1,0 +1,13 @@
+{
+    "name": "Q2A Badges",
+    "uri": "https://github.com/gurjyot/q2a-badges",
+    "description": "This is a plugin for Question2Answer that provides basic badge functionality.",
+    "version": "0.1b4",
+    "date": "2017-09-28",
+    "author": "NoahY (extended by Gurjyot Singh)",
+    "author_uri": "http://www.question2answer.org/qa/user/Gurjyot+Singh",
+    "license": "GPLv2",
+    "update_uri": "https://raw.githubusercontent.com/gurjyot/q2a-badges/master/metadata.json",
+    "min_q2a": "1.7",
+    "min_php": "5.2"
+}

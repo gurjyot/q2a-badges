@@ -84,14 +84,15 @@ You may cancel these notices at any time by visiting your profile at the link ab
 	vertical-align:top;
 }
 .badge-bronze,.badge-silver, .badge-gold {
-	margin-right:4px;
 	color: #000;
 	font-weight:bold;
+    font-size:13px;
 	text-align:center;
-	border-radius:4px;
 	width:120px;
-	padding: 5px 10px;
+	padding: 5px 3px;
 	display: inline-block;
+    float:left;
+    overflow-x:hidden;
 }
 .badge-bronze {
 	background-color: #CB9114;
@@ -142,7 +143,16 @@ You may cancel these notices at any time by visiting your profile at the link ab
 	padding-left:8px;
 }			
 .badge-count {
+    padding: 5px 4px;
+    text-align:center;
+    color: #000;
+    background-color: #F2EDD8;
+    font-size:13px;
 	font-weight:bold;
+    float:left;
+    display:inline-block;
+    border:2px solid #6C582C;
+    border-left:0px;
 }			
 .badge-count-link {
 	cursor:pointer;
@@ -154,6 +164,22 @@ You may cancel these notices at any time by visiting your profile at the link ab
 }
 .badge-widget-entry {
 	white-space:nowrap;
+}
+@media only screen and (max-width: 768px){
+	.badge-user-table {
+		float:left;
+	}
+}
+@media only screen and (max-width: 350px){
+	.badge-user-table{
+	    width:100%;
+	}
+	.badge-container-badge{
+    	width:100%;
+	}
+	.badge-bronze,.badge-silver, .badge-gold{
+		width:85%;
+	}
 }
 ';
 				default:
