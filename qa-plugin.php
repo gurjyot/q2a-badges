@@ -1,16 +1,16 @@
 <?php
 
 /*
-        Plugin Name: Badges
-        Plugin URI: https://github.com/NoahY/q2a-badges
-        Plugin Description: Awards Badges
-        Plugin Version: 4.8
-        Plugin Date: 2011-07-30
-        Plugin Author: NoahY
-        Plugin Author URI: 
+        Plugin Name: Q2A Badges
+        Plugin URI: https://github.com/gurjyot/q2a-badges
+        Plugin Description: This is a plugin for Question2Answer that provides basic badge functionality.
+        Plugin Version: 4.9
+        Plugin Date: 2017-09-28
+        Plugin Author: NoahY (extended by Gurjyot Singh)
+        Plugin Author URI: http://www.question2answer.org/qa/user/Gurjyot+Singh
         Plugin License: GPLv3+
-        Plugin Minimum Question2Answer Version: 1.5
-		Plugin Update Check URI: https://raw.github.com/NoahY/q2a-badges/master/qa-plugin.php
+        Plugin Minimum Question2Answer Version: 1.7
+		Plugin Update Check URI: https://raw.githubusercontent.com/gurjyot/q2a-badges/master/metadata.json
 */
 
 
